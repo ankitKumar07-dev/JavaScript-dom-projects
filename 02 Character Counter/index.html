@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Character Counter</h1>
+
+        <textarea name="message" id="message" maxlength="100" placeholder="Enter your message"></textarea>
+        <p class="warning"></p>
+        <div class="counters">
+            <p class="c-count">Characters: 0/100</p>
+            <p class="r-count">Remaining: 100</p>
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron:regular,500,600,700,800,900);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "orbitron";
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+}
+
+.container{
+    border-radius: 10px;
+    padding: 35px 40px;
+    text-align: center;
+    box-shadow: 0 0 10px #555;
+}
+
+h1{
+    color: rgb(7, 161, 185);
+    font-weight: 500;
+}
+
+p{
+    color: rgb(195, 147, 207);
+    margin-top: 5px;
+    font-size: 17px;
+}
+
+span{
+    color: white;
+}

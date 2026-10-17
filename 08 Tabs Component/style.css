@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tab-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 7px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:active{
+    opacity: 0.5;
+}
+
+.tab-buttons button.active{
+    background-color: #2563eb;
+    color: white;
+    border: none;
+}
+
+.content{
+    display: none;
+}
+
+.content.active{
+    display: block;
+}
+
+.tab-content{
+    margin: 50px 80px;
+}
