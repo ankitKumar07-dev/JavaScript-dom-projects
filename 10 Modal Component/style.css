@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#open-model{
+    padding: 10px;
+    margin: 50px;
+    font-size: 14px;
+    border: 1px solid black;
+    outline: none; 
+    cursor: pointer;
+}
+
+.model-overlay{
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.model{
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 270px;
+    position: relative;
+}
+
+#close-model{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    border: none;
+    padding: 0px 10px;
+    background: transparent;
+
+}
